@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jvascript</title>
+    <style>
+        #wrapper {
+
+
+            margin-top: 11em;
+            margin-left: 28em;
+        }
+
+        #javascript {
+
+            margin-top: 12em;
+            margin-left: 51em;
+
+        }
+
+        h3 {
+
+            margin-top: auto;
+            display: inline;
+
+        }
+
+        #text {
+
+
+            padding-top: 2em;
+            width: 40%;
+        }
+
+
+        #texter {
+
+            padding-top: 2em;
+            width: 40%;
+
+        }
+
+        #buttons {
+
+
+
+            margin-left: 46em;
+
+            margin-top: 4em;
+
+            padding: 18px;
+
+            width: 22em;
+
+        }
+
+        # center {
+
+
+            margin-left: 28em;
+        }
+
+        #ans {
+
+            margin-left: 28em;
+
+        }
+
+        #anser {
+
+
+            margin-left: 28em;
+
+        }
+        
+    </style>
+
+
+
+
+
+    <form>
+
+
+        <div id="wrapper">
+
+            <h3>Length of Rectangle</h3>
+            <input type="textbox" placeholder="Enter the Length" id="text">
+            <br /><br />
+            <h3>Width of Rectangle</h3>
+            <input type="textbox" placeholder="Enter the width" id="texter">
+
+
+        </div>
+
+        <button type="button" id="buttons" onclick="calculate()">Calculate Area & Perimeter</button>
+
+
+        
+        <p id='ans'></p>
+        <p id='anser'></p>
+        
+
+        <script>
+
+
+            function calculate() {
+
+
+                var w = parseInt(document.getElementById('text').value);
+                var y = parseInt(document.getElementById('texter').value);
+                var result = w * y;
+                var perimet = (2 * Number(w + y));
+                document.getElementById('ans').innerHTML = "Area is" + " " + result + " " + "sq.mtr.";
+                document.getElementById('anser').innerHTML = "Perimeter is" + " " + perimet + " " + "mtr";
+
+            }
+
+        </script>
+    </form>
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+</script>
+
+</form>
+</head>
+
+</html>
