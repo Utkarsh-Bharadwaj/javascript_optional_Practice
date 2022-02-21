@@ -54,11 +54,7 @@
 
         }
 
-        # center {
-
-
-            margin-left: 28em;
-        }
+       
 
         #ans {
 
@@ -85,10 +81,10 @@
         <div id="wrapper">
 
             <h3>Length of Rectangle</h3>
-            <input type="textbox" placeholder="Enter the Length" id="text">
+            <input type="textbox" placeholder="Enter the Length" id="text" name="text1">
             <br /><br />
             <h3>Width of Rectangle</h3>
-            <input type="textbox" placeholder="Enter the width" id="texter">
+            <input type="textbox" placeholder="Enter the width" id="texter" name="text2">
 
 
         </div>
@@ -100,23 +96,7 @@
         <p id='ans'></p>
         <p id='anser'></p>
         
-
-        <script>
-
-
-            function calculate() {
-
-
-                var w = parseInt(document.getElementById('text').value);
-                var y = parseInt(document.getElementById('texter').value);
-                var result = w * y;
-                var perimet = (2 * Number(w + y));
-                document.getElementById('ans').innerHTML = "Area is" + " " + result + " " + "sq.mtr.";
-                document.getElementById('anser').innerHTML = "Perimeter is" + " " + perimet + " " + "mtr";
-
-            }
-
-        </script>
+    
     </form>
     </body>
 
